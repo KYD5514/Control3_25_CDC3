@@ -57,7 +57,16 @@ public class GaleriaArte implements GestionStock<Obra> {
 	
 	@Override
 	public void saveAll(Obra[] t) {
-		// TODO Auto-generated method stub
+		int anio[]=null;
+		List<Obra> lista;
+
+		for (int i=0; i<2;i++) {
+			anio[i] = t[i].getAnio();
+		}
+		int diferencia = anio[0] - anio[1];
+		if (diferencia > 0)
+			
+			
 
 	}
 
